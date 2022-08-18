@@ -41,12 +41,20 @@ p{
 	padding: 0px 0px 15px 0px;
 }
 
-
 #div_principal{
 	clear: both;
 	background-image: url('../img/fundao.jpg');
 	min-height: 400px;
 	padding: 15px 0px 0px 0px;
+}
+
+div#server {
+    display: flex;
+    justify-content: center;
+	transition: all 500ms;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px #111111;
 }
 
 #logo{
@@ -78,6 +86,11 @@ p{
 	border-radius: 10px;
 }
 
+div#server {
+    display: flex;
+    justify-content: center;
+}
+
 #btn-download{
 	margin-right: 6px;
 	border-width: 2px;
@@ -95,10 +108,8 @@ p{
 }
 
 #btn-download:hover{
-	transform: scale(1.2); 
 	background-color: rgb(159, 0, 0);
 }
-
 
 #server img{
 	width: 150px;
