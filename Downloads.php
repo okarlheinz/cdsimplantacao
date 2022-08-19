@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/header.html';
+	include __DIR__ . '/header.html';
 ?>
 
 	<body>
@@ -20,8 +20,8 @@ include __DIR__ . '/header.html';
 			</div>
 		</div>
 
-		<footer>
-			<i>Desenvolvido por Karl Heinz</i>
-		</footer>
+		<?php
+			include __DIR__ . '/footer.html';
+		?>
 
 	</body>

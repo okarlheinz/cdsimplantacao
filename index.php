@@ -41,9 +41,9 @@ include __DIR__ . '/header.html';
 		</div>
 
 
-		<footer>
-			<i>Desenvolvido por Karl Heinz</i>
-		</footer>
+		<?php
+			include __DIR__ . '/footer.html';
+		?>
 
 	</body>
 
