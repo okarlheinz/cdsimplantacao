@@ -16,7 +16,7 @@ footer{
 	height: 30px;
 	text-align: center;
 	padding: 10px;
-	bottom: ;
+	font-weight: 700;
 }
 
 h1{
@@ -92,7 +92,7 @@ div#server {
     justify-content: center;
 }
 
-#btn-download{
+.btn-download{
 	margin-right: 6px;
 	border-width: 2px;
 	border-radius: 10px;
@@ -102,13 +102,12 @@ div#server {
 	height: 45px;
 }
 
-#btn-download a{
+.btn-download a{
 	color: white;
 	text-decoration: none;
-	/* text-shadow: 2px 2px 2px #111111; */
 }
 
-#btn-download:hover{
+.btn-download:hover{
 	background-color: rgb(159, 0, 0);
 }
 
@@ -130,6 +129,38 @@ div#server {
 	transition: 0.3s;
 }
 
+#btn-exclui
+{
+	width: 80%;
+	height: 80%;
+}
+
+#btn-exclui:hover
+{
+	transform: scale(1.2); 
+	border-radius: 10px;
+	transition: 0.3s;
+	
+}
+
+#btn-novo
+{
+	width: 80%;
+	height: 80%;	
+}
+
+#btn-novo:hover
+{
+	transform: scale(1.2); 
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+#coluna
+{
+	width: 3%;
+}
+
 .container{
 	width: 960px;
 	margin: 0 auto;
@@ -139,3 +170,44 @@ div#server {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 15px;
 }
+
+#btn-cadcliente
+{
+	text-decoration: none;
+	color: red;
+}
+
+
+
+/* Tabelas na pagina de clienteCDSWEB.php */
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 97%;
+  }
+
+table#customers {
+    margin: 20px;
+}
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #0468aa;
+	color: white;
+  }
+
+  /* Fim da tabela na pagina clienteCDSWEB.php */
+
+
