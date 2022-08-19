@@ -1,35 +1,8 @@
-<DOCTYPE html>
-<html lang='pt-br'>
-
-	<head>
-		<meta charset="utf-8">
-		<title>CDS Sistemas</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="shortcut icon" href="/img/favicon.ico"/>
-
-	</head>
+<?php
+include __DIR__ . '/header.html';
+?>
 
 	<body>
-
-		<header>		
-			<div class="container">
-				<div id="logo">
-					<a href="index.html"><img src="./img/cds_logo.png"></a>
-				</div>
-
-				<div id="menu">
-					<!-- <a href="index.html">Home</a> -->
-					<a href="Downloads.html">Downloads</a>
-					<a href="https://www.instagram.com/cdssistemas/" target="_blank" rel="noopener noreferrer">Instagram</a>
-					<a href="https://www.youtube.com/channel/UCTovPDfm2UFMDi58vSJpopA" target="_blank" rel="noopener noreferrer">Nosso Canal</a>
-					<a href="https://quefaco.webnode.com.br/" target="_blank" rel="noopener noreferrer">QueFaco</a>
-					<a href="https://webmail-seguro.com.br/cdssistemas.com.br/" target="_blank" rel="noopener noreferrer">Webmail</a>
-
-				</div>
-				
-			</div>
-		</header>
-
 
 		<div id='div_principal'>
 			<div class="efeito">
