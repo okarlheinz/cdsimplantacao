@@ -209,27 +209,30 @@ div#server
 
 .cadastro div{margin: 1%;}
 
-.cadastro input{border-radius: 5px;}
-
-
 .submit input
 {
 	clear: both;
 	margin-right: 6px;
-	/* border-width: 2px;
-	border-radius: 5px;
-	border-color: rgb(7, 0, 131); */
 	background-color: dodgerblue ;
 	width: 150px;
 	height: 30px;
 	color: white;
 	box-shadow: #111111;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	opacity: 0.6;
 }
 
 .submit input:hover
 {
-	background-color: rgb(17, 81, 146);
+	opacity: 1;
 	transition: all 400ms;
+	/* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
 /* Fim da tela de cadastro */
