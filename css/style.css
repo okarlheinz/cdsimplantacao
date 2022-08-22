@@ -204,10 +204,18 @@ div#server
 .cadastro
 {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.cadastro div{margin: 1%;}
+.cadastro input, label
+{
+	display: block;
+	outline: none;
+	width: 100%;
+	border-color: #111111;
+}
+
 
 .submit input
 {
