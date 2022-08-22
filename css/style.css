@@ -86,7 +86,7 @@ div#server
 	float: right;
 }
 
-#menu a
+#menu a	
 {
 	padding: 20px;
 	text-decoration: none;
@@ -198,6 +198,41 @@ div#server
 	text-decoration: none;
 	color: red;
 }
+
+/* Form da tela de cadastro */
+
+.cadastro
+{
+	display: flex;
+	justify-content: center;
+}
+
+.cadastro div{margin: 1%;}
+
+.cadastro input{border-radius: 5px;}
+
+
+.submit input
+{
+	clear: both;
+	margin-right: 6px;
+	/* border-width: 2px;
+	border-radius: 5px;
+	border-color: rgb(7, 0, 131); */
+	background-color: dodgerblue ;
+	width: 150px;
+	height: 30px;
+	color: white;
+	box-shadow: #111111;
+}
+
+.submit input:hover
+{
+	background-color: rgb(17, 81, 146);
+	transition: all 400ms;
+}
+
+/* Fim da tela de cadastro */
 
 
 
