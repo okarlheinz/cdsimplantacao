@@ -203,10 +203,14 @@ div#server
 
 .cadastro
 {
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+.cadastro div {
+    margin-top: 30px;
 }
 
 .cadastro input, select
@@ -244,6 +248,25 @@ div#server
     outline-offset: 0px;
 }
 
+.div-login {
+    max-width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    background-color: #ffffff96;
+    padding: 6% 0%;
+    border-radius: 20px;
+}
+
+.div-login input, label {
+    display: block;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+
 .submit input
 {
 	clear: both;
@@ -261,6 +284,7 @@ div#server
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	cursor: pointer;
 	opacity: 0.6;
+	margin-top: 15px;
 }
 
 .submit input:hover
