@@ -19,7 +19,7 @@
 
         <table id="customers">
             <tr>
-                <th id='coluna'><a class="button" href="cad_cliente.php"><img id='btn-novo' src="./img/mais.png" alt="adicionar"></a></th>
+                <th id='coluna'><a class="button" href="cadCliente.php"><img id='btn-novo' src="./img/mais.png" alt="adicionar"></a></th>
                 <th>Cliente</th>
                 <th>CDSWEB Login</th>
                 <th>CDSWEB Senha</th>

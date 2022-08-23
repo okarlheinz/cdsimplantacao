@@ -14,7 +14,7 @@
 			$_POST['servidor']
 		);
 
-		header('location: /Cad_cliente.php');
+		header('location: /cadCliente.php');
 		die();
 
 	}
@@ -27,7 +27,7 @@
 		<h1>Cadastro de Cliente</h1>
 	</div>
 	<div class="container">
-		<form class='cadastro' method='post' action="Cad_cliente.php">
+		<form class='cadastro' method='post' action="cadCliente.php">
 			<div>
 				<label for="fname">Fantasia:</label><br>
 				<input type="text" id="fantasia" name="fantasia" ><br><br>
