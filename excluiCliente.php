@@ -10,7 +10,7 @@
 			$_POST['id']
 		);
 
-		header('location: /IMPLANTACAO/clienteCDSWEB.php');
+		header('location: /clienteCDSWEB.php');
 		die();
 
 	}
@@ -29,7 +29,7 @@
 
 <body>
     <div id="container">
-        <h1>Você realmente deseja excluir o artigo?</h1>
+        <h1>Você realmente deseja excluir o cadastro?</h1>
         <form method="post" action="excluiCliente.php">
             <p>
                 <input type="hidden" name="id" value="<?php echo $_GET['id']?>" />

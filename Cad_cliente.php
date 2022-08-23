@@ -14,7 +14,7 @@
 			$_POST['servidor']
 		);
 
-		header('location: /IMPLANTACAO/Cad_cliente.php');
+		header('location: /Cad_cliente.php');
 		die();
 
 	}

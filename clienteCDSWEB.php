@@ -31,7 +31,7 @@
             <?php 
             foreach($clientes as $cliente):?>
             <tr>
-                <td><a class="button" href="/IMPLANTACAO/excluiCliente.php?id=<?= $cliente['id']?>"><img id="btn-exclui" src="./img/bloquear.png" alt="exclui"></a></td>
+                <td><a class="button" href="/excluiCliente.php?id=<?= $cliente['id']?>"><img id="btn-exclui" src="./img/bloquear.png" alt="exclui"></a></td>
                 <td><?= $cliente['fantasia']?></td>
                 <td><?= $cliente['cdsweblogin']?></td>
                 <td><?= $cliente['cdswebsenha']?></td>
