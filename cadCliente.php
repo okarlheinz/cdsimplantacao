@@ -27,8 +27,8 @@
 <div id='div_principal'>
 	<div class='efeito'>
 		<h1>Cadastro de Cliente</h1>
-		<p>Olá <?php echo ucfirst($_SESSION['usuario'])?>!</p>
-		<p><a href="logout.php">Sair</a></p>
+		<p>Olá, <?php echo ucfirst($_SESSION['usuario'])?>!</p>
+		<p><a id='saivolta' href="logout.php">Sair</a></p>
 	</div>
 	<div class="container">
 		<form class='cadastro' method='post' action="cadCliente.php">

@@ -16,16 +16,15 @@
         
         <div class='efeito'>
             <h1>Clientes CDS WEB</h1>
-            <p>Olá <?php echo ucfirst($_SESSION['usuario'])?>!</p>
+            <p>Olá, <?php echo ucfirst($_SESSION['usuario'])?>!</p>
             <p><a id='saivolta' href="logout.php">Sair</a></p>
         </div>
 
         <table id="customers">
             <tr>
                 <th id='coluna'><a class="button" 
-                    <?php if($_SESSION['permissao'] == 1)
-                        {
-                            ?> href="cadCliente.php" 
+                    <?php if($_SESSION['permissao'] == 1){?> 
+                            href="cadCliente.php" 
                             <?php } else { ?> 
                             href="erroPermissao.php" <?php } ?> ><img id='btn-novo' src="./img/mais.png" alt="adicionar"></a></th>
                 <th>Cliente</th>
@@ -39,7 +38,12 @@
             <?php 
             foreach($clientes as $cliente):?>
             <tr>
-                <td><a class="button" href="/excluiCliente.php?id=<?= $cliente['id']?>"><img id="btn-exclui" src="./img/bloquear.png" alt="exclui"></a></td>
+                <td><a class="button" 
+                <?php if($_SESSION['permissao'] == 1){?>
+                href="excluiCliente.php?id=<?= $cliente['id']?>"
+                <?php } else { ?>
+                href="erroPermissao.php" <?php } ?> 
+                ><img id="btn-exclui" src="./img/bloquear.png" alt="exclui"></a></td>
                 <td><?= $cliente['fantasia']?></td>
                 <td><?= $cliente['cdsweblogin']?></td>
                 <td><?= $cliente['cdswebsenha']?></td>

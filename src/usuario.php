@@ -25,7 +25,7 @@ class Usuario
     public function inserir(string $usuario, $senha):void
     {
 
-        $inserir = $this->mysql->prepare("INSERT INTO usuario (usuario,senha) VALUES (?,?)");
+        $inserir = $this->mysql->prepare("INSERT INTO usuario (usuario,senha,admin) VALUES (?,?,'0')");
         
         $inserir->bind_param('ss', $usuario, $senha);
 

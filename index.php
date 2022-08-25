@@ -18,7 +18,7 @@ include __DIR__ . '/header.php';
 
 						<div class="item_server">
 							<a href="https://cdsnuvem.com.br/" target="_blank" rel="noopener noreferrer"><img src="img/SERVIDOR.png" alt="138"></a>
-								192
+								138
 						</div>
 
 						<div class="item_server">

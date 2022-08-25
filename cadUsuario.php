@@ -10,7 +10,7 @@
 			$_POST['senha']
 		);
 
-		header('location: /IMPLANTACAO/cadUsuario.php');
+		header('location: cadUsuario.php');
 		die();
 
 	}
