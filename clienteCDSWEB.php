@@ -16,16 +16,18 @@
         
         <div class='efeito'>
             <h1>Clientes CDS WEB</h1>
+            <p>Olá <?php echo ucfirst($_SESSION['usuario'])?>!</p>
+            <p><a id='saivolta' href="logout.php">Sair</a></p>
         </div>
 
         <table id="customers">
             <tr>
                 <th id='coluna'><a class="button" 
-                    <?php if(empty($_SESSION))
+                    <?php if($_SESSION['permissao'] == 1)
                         {
-                            ?> href="telaLogin.php" 
+                            ?> href="cadCliente.php" 
                             <?php } else { ?> 
-                            href="cadCliente.php" <?php } ?> ><img id='btn-novo' src="./img/mais.png" alt="adicionar"></a></th>
+                            href="erroPermissao.php" <?php } ?> ><img id='btn-novo' src="./img/mais.png" alt="adicionar"></a></th>
                 <th>Cliente</th>
                 <th>CDSWEB Login</th>
                 <th>CDSWEB Senha</th>

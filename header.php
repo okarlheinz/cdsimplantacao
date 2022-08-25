@@ -21,7 +21,10 @@
     
                     <div id="menu">
                         <a href="Downloads.php">Downloads</a>
-                        <a href="clienteCDSWEB.php">Clientes CDSWEB</a>
+                        <a <?php if(!empty($_SESSION)){
+                            ?> href="clienteCDSWEB.php" 
+                            <?php } else { ?> 
+                            href="telaLogin.php" <?php } ?> >ClienteCDSWEB</a>
                         <a href="http://198.49.71.152:800/mantisbt" target="_blank" rel="noopener noreferrer">Mantis</a>
                         <a href="https://helpdesk.servhost.com.br/" target="_blank" rel="noopener noreferrer">HelpDesk</a>
                         <a href="https://www.youtube.com/channel/UCTovPDfm2UFMDi58vSJpopA" target="_blank" rel="noopener noreferrer">Nosso Canal</a>

@@ -10,9 +10,6 @@
 			$_POST['usuario'], 
 			$_POST['senha']
 		);
-
-		// header('location: /cadCliente.php');
-		// die();
 	}
 ?>
 
@@ -34,7 +31,7 @@
 
 							<label for="senha">Senha:</label>
 							<input name='senha' type="password" placeholder="senha"><br>
-							<input type="submit">
+							<input id="submit" type="submit">
 						</div>
 					</form>
 				</div>
