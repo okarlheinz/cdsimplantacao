@@ -17,18 +17,23 @@ include __DIR__ . '/header.php';
 					<div id="server">
 
 						<div class="item_server">
-							<a href="https://cdsnuvem.com.br/" target="_blank" rel="noopener noreferrer"><img src="img/SERVIDOR.png" alt="138"></a>
-								138
+							<a href="https://cdsnuvem.com.br/" target="_blank" rel="noopener noreferrer"><img class="imgServer" src="img/SERVIDOR.png" alt="138"></a>
+							<p>138</p>
 						</div>
 
 						<div class="item_server">
-							<a href="http://74.63.213.142:800/cdsweb/" target="_blank" rel="noopener noreferrer"><img src="img/SERVIDOR.png"alt="74"></a>
-								74
+							<a href="http://74.63.213.142:800/cdsweb/" target="_blank" rel="noopener noreferrer"><img class="imgServer"src="img/SERVIDOR.png"alt="74"></a>
+							<p>74</p>
 						</div>
 
 						<div class="item_server">
-							<a href="http://63.143.45.98:800/" target="_blank" rel="noopener noreferrer"><img src="img/SERVIDOR.png"alt="63"></a>
-								63
+							<a href="http://63.143.45.98:800/" target="_blank" rel="noopener noreferrer"><img class="imgServer" src="img/SERVIDOR.png"alt="63"></a>
+							<p>63</p>
+						</div>
+
+						<div class="item_server">
+							<a href="http://63.143.45.98:800/" target="_blank" rel="noopener noreferrer"><img class="imgServer" src="img/SERVIDOR.png"alt="63"></a>
+							<p>216</p>
 						</div>
 
 
