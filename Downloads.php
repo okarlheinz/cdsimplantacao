@@ -7,8 +7,8 @@
 		<div id='div_principal'>
 			<div class="efeito">
 				<div class="container">
-
-					<h1>Downloads</h1>	
+					<h1>Downloads</h1>
+					<div class="downloads">
 						<button class="btn-download">
 							<a href="https://www.4devs.com.br/gerador_de_cpf" target="_blank" rel="noopener noreferrer">Gerador de CPF</a></button>
 						<button class="btn-download">
@@ -31,6 +31,8 @@
 							<a href="https://drive.google.com/file/d/1_XP9nua0TMGg8EXN1mNUBayFwduW0xfE/view?usp=sharing" target="_blank" rel="noopener noreferrer">Instalador SQL 2008</a></button>                 
 						<button class="btn-download">
 							<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a></button>                 
+
+					</div>
 
 				</div>
 			</div>

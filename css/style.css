@@ -8,6 +8,7 @@ body {
 	background-color: rgb(147, 147, 147);
 	font-family: "Oswald", sans-serif;
 	height: 100%;
+	width: auto;
 }
 
 header {
@@ -50,19 +51,34 @@ p {
 }
 
 #div_principal {
-	clear: both;
-	/* background-image: url('../img/fundao.jpg'); */
+	/* clear: both; */
 	min-height: 550px;
 	padding: 15px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
 }
 
-div#server {
+#server {
 	display: flex;
 	justify-content: center;
 	transition: all 500ms;
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 2px #111111;
+}
+
+@media screen and (max-width: 768px) {
+	#server {
+		flex-direction: column;
+	}
+
+	.container {
+		height: 100vh;
+	}
+
+	.efeito {
+		height: 100%;
+	}
 }
 
 #logo {
@@ -82,8 +98,14 @@ div#server {
 
 #menu {
 	position: absolute;
-
 }
+
+@media screen and (max-width: 768px) {
+	#menu {
+		display: none;
+	}
+}
+
 
 #menu a {
 	padding: 20px;
@@ -97,6 +119,19 @@ div#server {
 	border-radius: 10px;
 }
 
+.downloads{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+	.downloads {
+			justify-content: center;
+	}
+
+}
 
 .btn-download {
 	margin-bottom: 10px;
@@ -107,7 +142,6 @@ div#server {
 	background-color: dodgerblue;
 	width: 150px;
 	height: 45px;
-	/* transition: transform 500ms; */
 }
 
 .btn-download a {
@@ -182,17 +216,21 @@ div#server {
 	width: 3%;
 }
 
-.container {
-	width: 960px;
-	margin: 0 auto;
-
-}
-
 .efeito {
+	border-radius: 5px;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 15px;
 	height: 80%;
+	width: 80vw;
 }
+
+.container {
+	width: 80vw;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+}
+
 
 .page {
 	background-color: white;
