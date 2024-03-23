@@ -26,7 +26,7 @@
                             <?php } else { ?> 
                             href="telaLogin.php" <?php } ?> >ClienteCDSWEB
                         </a>
-                        <a href="./videosImplantacao/canal.html">Implantação</a>
+                        <a href="canal.php">Implantação</a>
                         <a href="http://198.49.71.152:800/mantisbt" target="_blank" rel="noopener noreferrer">Mantis</a>
                         <a href="https://helpdesk.servhost.com.br/" target="_blank" rel="noopener noreferrer">HelpDesk</a>
                         <a href="https://www.youtube.com/channel/UCTovPDfm2UFMDi58vSJpopA" target="_blank" rel="noopener noreferrer">Nosso Canal</a>

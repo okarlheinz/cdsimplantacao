@@ -41,10 +41,10 @@ class Login
             $_SESSION['permissao'] = $queryresult[2];
             $_SESSION['usuario'] = $usuario;
 
-            header('Location: ../clienteCDSWEB.php');
+            header('Location: ./clienteCDSWEB.php');
 
         } else {
-            header('Location: ../clienteCDSWEB.php' );
+            header('Location: ./clienteCDSWEB.php' );
             exit();
         }             
     }

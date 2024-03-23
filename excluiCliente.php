@@ -10,7 +10,7 @@
 			$_POST['id']
 		);
 
-		header('location: /clienteCDSWEB.php');
+		header('location: ./clienteCDSWEB.php');
 		die();
 
 	}

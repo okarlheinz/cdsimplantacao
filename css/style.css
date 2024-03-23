@@ -1,19 +1,23 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	font-family: arial;
 }
 
-header
-{
+body {
+	background-color: rgb(147, 147, 147);
+	font-family: "Oswald", sans-serif;
+	height: 100%;
+}
+
+header {
 	position: relative;
 	background-color: rgb(0, 28, 77);
 	height: 25px;
 	padding: 30px;
 }
 
-footer
-{
+footer {
 	clear: both;
 	background-color: rgb(0, 28, 77);
 	color: #ffffff;
@@ -23,16 +27,14 @@ footer
 	font-weight: 700;
 }
 
-h1
-{
+h1 {
 	color: #ffffff;
 	text-align: center;
 	text-shadow: 2px 2px 2px #111111;
 	padding: 0px 0px 15px 0px;
 }
 
-h2
-{
+h2 {
 	margin-top: 50px;
 	color: #ffffff;
 	text-align: center;
@@ -40,90 +42,78 @@ h2
 	padding: 0px 0px 15px 0px;
 }
 
-p
-{
-	text-align: center;	
+p {
+	text-align: center;
 	color: #ffffff;
 	text-shadow: 2px 2px 2px #111111;
 	padding: 0px 0px 15px 0px;
 }
 
-#div_principal
-{
+#div_principal {
 	clear: both;
 	/* background-image: url('../img/fundao.jpg'); */
 	min-height: 550px;
 	padding: 15px 0px 0px 0px;
 }
 
-div#server 
-{
-    display: flex;
-    justify-content: center;
+div#server {
+	display: flex;
+	justify-content: center;
 	transition: all 500ms;
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 2px #111111;
 }
 
-#logo
-{
+#logo {
 	position: absolute;
 	left: 15px;
 }
 
-#logo img
-{
+#logo img {
 	width: 80px;
 	margin-top: -18px;
 }
 
-#logo img:hover
-{
-	transform: scale(1.2); 
+#logo img:hover {
+	transform: scale(1.2);
 	transition: 0.3s;
 }
 
-#menu
-{	
+#menu {
 	position: absolute;
-	
+
 }
 
-#menu a	
-{
+#menu a {
 	padding: 20px;
 	text-decoration: none;
 	color: white;
-	text-shadow: 2px 2px 2px #111111;	
+	text-shadow: 2px 2px 2px #111111;
 }
 
-#menu a:hover
-{
+#menu a:hover {
 	background-color: #0000004e;
 	border-radius: 10px;
 }
 
 
-.btn-download
-{
+.btn-download {
 	margin-right: 6px;
 	border-width: 2px;
 	border-radius: 10px;
 	border-color: rgb(7, 0, 131);
-	background-color: dodgerblue ;
+	background-color: dodgerblue;
 	width: 150px;
 	height: 45px;
 }
 
-.btn-download a
-{
+.btn-download a {
 	color: white;
 	text-decoration: none;
 }
 
-.btn-download:hover
-{
+.btn-download:hover {
 	background-color: rgb(159, 0, 0);
 }
 
@@ -137,89 +127,99 @@ div#server
 }
 
 
-#server a
-{   
+#server a {
 	/* padding: 75px; */
 	margin-right: 15px;
 	text-decoration: none;
 	color: white;
-	text-shadow: 2px 2px 2px #111111; 
+	text-shadow: 2px 2px 2px #111111;
 }
 
-#server img:hover
-{
-	transform: scale(1.2); 
+#server img:hover {
+	transform: scale(1.2);
 	border-radius: 10px;
 	transition: 0.3s;
 }
 
-#btn-exclui
-{
+#btn-exclui {
 	width: 80%;
 	height: 80%;
 }
 
-#btn-exclui:hover
-{
-	transform: scale(1.2); 
+#btn-exclui:hover {
+	transform: scale(1.2);
 	border-radius: 10px;
 	transition: 0.3s;
-	
+
 }
 
-#btn-novo
-{
+#btn-novo {
 	width: 80%;
-	height: 80%;	
+	height: 80%;
 }
 
-#btn-novo:hover
-{
-	transform: scale(1.2); 
+#btn-novo:hover {
+	transform: scale(1.2);
 	border-radius: 10px;
 	transition: 0.3s;
 }
 
-#coluna
-{
+#coluna {
 	width: 3%;
 }
 
-.container
-{
+.container {
 	width: 960px;
 	margin: 0 auto;
+
 }
 
-.efeito
-{
+.efeito {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 15px;
-	height: 70%;
+	height: 80%;
 }
 
-#btn-cadcliente
-{
+.page {
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.tittle {
+	background-color: rgba(109, 109, 109, 0.425);
+	border-radius: 5px;
+	width: 800px;
+}
+
+#btn-cadcliente {
 	text-decoration: none;
 	color: red;
 }
 
 /* Form da tela de cadastro */
 
-.cadastro
-{
+.cadastro {
 	/* margin-top: 50px; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
 }
+
 
 .cadastro div {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
-.cadastro input, select
-{
+.cadastro input,
+select {
 	display: block;
 	outline: none;
 	width: 300px;
@@ -229,71 +229,69 @@ div#server
 	border-color: rgb(170, 170, 170);
 }
 
-.cadastro select:focus{
+.cadastro select:focus {
 	/* border-color: #66afe9; */
-    border-top-color: rgb(102, 175, 233);
-    border-right-color: rgb(102, 175, 233);
-    border-bottom-color: rgb(102, 175, 233);
-    border-left-color: rgb(102, 175, 233);
-    outline: 0;
+	border-top-color: rgb(102, 175, 233);
+	border-right-color: rgb(102, 175, 233);
+	border-bottom-color: rgb(102, 175, 233);
+	border-left-color: rgb(102, 175, 233);
+	outline: 0;
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
 }
 
-.cadastro input:focus{
+.cadastro input:focus {
 	/* border-color: #66afe9; */
-    border-top-color: rgb(102, 175, 233);
-    border-right-color: rgb(102, 175, 233);
-    border-bottom-color: rgb(102, 175, 233);
-    border-left-color: rgb(102, 175, 233);
-    outline: 0;
+	border-top-color: rgb(102, 175, 233);
+	border-right-color: rgb(102, 175, 233);
+	border-bottom-color: rgb(102, 175, 233);
+	border-left-color: rgb(102, 175, 233);
+	outline: 0;
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
 }
 
 .cadastro input:focus-visible {
-    outline-offset: 0px;
+	outline-offset: 0px;
 }
 
 .div-login {
-    max-width: 300px;
-    justify-content: center;
-    margin: 0 auto;
-    display: grid;
-    background-color: #ffffff96;
-    padding: 6% 0%;
-    border-radius: 20px;
+	max-width: 300px;
+	justify-content: center;
+	margin: 0 auto;
+	display: grid;
+	background-color: #ffffff96;
+	padding: 6% 0%;
+	border-radius: 20px;
 }
 
-.div-login input, label {
-    display: block;
-    padding: 10px 10px;
-    border-radius: 6px;
-    border: none;
+.div-login input,
+label {
+	display: block;
+	padding: 10px 10px;
+	border-radius: 6px;
+	border: none;
 }
 
-#submit:hover
-{
+#submit:hover {
 	background-color: dodgerblue;
 	color: white;
 	transition: all 400ms;
-	transform: scale(1.2); 
+	transform: scale(1.2);
 	cursor: pointer;
 }
 
-.div-login input:focus
-{
+.div-login input:focus {
 	border-top-color: rgb(102, 175, 233);
-    border-right-color: rgb(102, 175, 233);
-    border-bottom-color: rgb(102, 175, 233);
-    border-left-color: rgb(102, 175, 233);
-    outline: 0;
+	border-right-color: rgb(102, 175, 233);
+	border-bottom-color: rgb(102, 175, 233);
+	border-left-color: rgb(102, 175, 233);
+	outline: 0;
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
 }
 
-.botao
-{
+.botao {
 	clear: both;
 	margin-right: 6px;
-	background-color: dodgerblue ;
+	background-color: dodgerblue;
 	width: 300px;
 	height: 30px;
 	color: white;
@@ -302,24 +300,23 @@ div#server
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	font-size: 16px;
+	;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	cursor: pointer;
 	opacity: 0.6;
 	margin-top: 15px;
 }
 
-.botao:hover
-{
+.botao:hover {
 	opacity: 1;
 	transition: all 400ms;
 }
 
-.submit input
-{
+.submit input {
 	clear: both;
 	margin-right: 6px;
-	background-color: dodgerblue ;
+	background-color: dodgerblue;
 	width: 300px;
 	height: 30px;
 	color: white;
@@ -328,22 +325,21 @@ div#server
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	font-size: 16px;
+	;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	cursor: pointer;
 	opacity: 0.6;
 	margin-top: 15px;
 }
 
-.submit input:hover
-{
+.submit input:hover {
 	opacity: 1;
 	transition: all 400ms;
 	/* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 
-#saivolta
-{
+#saivolta {
 	text-decoration: none;
 	color: whitesmoke;
 	text-shadow: 2px 2px 2px #111111;
@@ -356,37 +352,72 @@ div#server
 
 /* Tabelas na pagina de clienteCDSWEB.php */
 
-#customers 
-{
+#customers {
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
 	width: 97%;
 }
 
-table#customers 
-{
-    margin: 20px;
-}
-  
-  #customers td, #customers th 
-{
-border: 1px solid #ddd;
-padding: 8px;
-}
-  
-  #customers tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #customers tr:hover {background-color: #ddd;}
-  
-  #customers th 
-{
-padding-top: 12px;
-padding-bottom: 12px;
-text-align: left;
-background-color: #0468aa;
-color: white;
+table#customers {
+	margin: 20px;
 }
 
-  /* Fim da tabela na pagina clienteCDSWEB.php */
+#customers td,
+#customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+	background-color: #ddd;
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #0468aa;
+	color: white;
+}
+
+/* Fim da tabela na pagina clienteCDSWEB.php */
 
 
+/* Tela de Videos */
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 570px;
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	margin: 15px;
+}
+
+h3 {
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.video-container {
+	margin: 15px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	background-color: white;
+	border: 1px solid rgb(143, 143, 143);
+	border-radius: 8px;
+}
+
+.video-logo {
+	height: 100px;
+	margin: 5px;
+}
